@@ -69,7 +69,7 @@ void kernel_init(unsigned long magic, unsigned long addr) {
 }
  
 void kernel_main() {	
-	timer_wait(100 * 5);
+//	timer_wait(100 * 5);
 	
 	while(1);
 }
